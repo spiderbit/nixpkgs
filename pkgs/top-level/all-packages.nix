@@ -1340,6 +1340,8 @@ in
 
   debootstrap = callPackage ../tools/misc/debootstrap { };
 
+  debootstrap-ubuntu = callPackage ../tools/misc/debootstrap-ubuntu { };
+    
   detox = callPackage ../tools/misc/detox { };
 
   devilspie2 = callPackage ../applications/misc/devilspie2 {
